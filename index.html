@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+  <!--Stylesheet-->
+  <link rel="stylesheet" href="style.css">
+  <title>Semáforo Manual</title>
+</head>
+<style>    
+    body {
+        background-image: url(Imagens/Backgroundimage.jpg)
+    }
+</style>
+<body>
+    <h1>Semáforo</h1>
+  <!--Imagem semáforo desligado-->
+  <img id="myImage" src="/Imagens/Semaforo desligado.png">
+  
+  <!--Botão Semáforo Vermelho-->
+  <button onclick="document.getElementById('myImage').src='/Imagens/Semaforo vermelho.png'" style="background-color: red" class="button1">Sinal Vermelho</button>
+
+  <!--Botão Semáforo Laranja-->
+  <button onclick="document.getElementById('myImage').src='/Imagens/Semaforo amarelo.png'" style="background-color: orange" class="button2">Sinal Laranja</button>
+
+  <!--Botão Semáforo Verde-->
+  <button onclick="document.getElementById('myImage').src='/Imagens/Semaforo verde.png'" style="background-color: green" class="button3">Sinal Verde</button>
+
+  <!--Botão Semáforo Desligado-->
+  <button onclick="document.getElementById('myImage').src='/Imagens/Semaforo desligado.png'" style="background-color: grey" class="button4">Desligado</button>
+  
+</body>

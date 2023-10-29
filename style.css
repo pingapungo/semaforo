@@ -1,0 +1,43 @@
+img {width:150px;
+    margin: 0px auto;
+    display: block;
+    margin-top: 12%;
+        
+}
+
+button {border: none;
+       padding: 15px;
+       border-radius: 8px;
+       font-size: 20px;
+       display: inline-block;
+       width: 12%;
+           
+}
+
+.button1 {margin-left: 23%;
+         margin-top: 5%;
+         margin-right: 1%;
+         color: #802200;
+         
+}
+
+.button2 {margin-right: 1%;
+         margin-left: 1%;
+         color: #df3901;
+ 
+}
+
+.button3 {margin-right: 2%;
+         margin-left: 1%;
+         color: #69ec69;
+ 
+}
+
+.button4 {margin-right: 1%;
+         color: black;
+
+}
+h1{
+    text-align: center;
+    color: white;
+}
